@@ -109,6 +109,10 @@ public class Recipes {
         ItemStack MyceliumInput = new ItemStack(Blocks.mycelium);
         ItemStack DirtOutput = new ItemStack(Blocks.dirt);
 
+        // NetherBrick
+        ItemStack NetherBrickOutput = new ItemStack(Items.netherbrick, 4);
+        ItemStack NetherBrickInput = new ItemStack(Blocks.nether_brick, 1);
+
 			/*
 			 *
 			 * Recipes
@@ -182,5 +186,8 @@ public class Recipes {
         // Grass / Mycelium
         GameRegistry.addShapelessRecipe(DirtOutput, GrassInput);
         GameRegistry.addShapelessRecipe(DirtOutput, MyceliumInput);
+
+        // NetherBrick
+        GameRegistry.addShapelessRecipe(NetherBrickOutput, NetherBrickInput);
     }
 }

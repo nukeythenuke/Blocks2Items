@@ -4,5 +4,5 @@ public class Reference {
 
     final static String modid = "Blocks2Items";
     final static String name = "Blocks 2 Items";
-    final static String version = "1.7.10-1.3";
+    final static String version = "1.7.10-1.3.1";
 }
