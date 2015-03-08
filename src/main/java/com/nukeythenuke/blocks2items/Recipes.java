@@ -1,11 +1,12 @@
 package com.nukeythenuke.blocks2items;
 
-import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 public class Recipes {
+	
 	// Recipes Method
 	public static void addRecipes() {
 
@@ -55,10 +56,20 @@ public class Recipes {
         ItemStack SandstoneOutput = new ItemStack(Blocks.sand, 4);
 
         // Doors
-        ItemStack WDoorOutput = new ItemStack(Blocks.planks, 6);
-        ItemStack WDoorInput = new ItemStack(Items.wooden_door, 6);
-        ItemStack IDoorOutput = new ItemStack(Items.iron_ingot, 6);
-        ItemStack IDoorInput = new ItemStack(Items.iron_door, 6);
+        ItemStack ODoorOutput = new ItemStack(Blocks.planks, 2);
+        ItemStack ODoorInput = new ItemStack(Items.oak_door);
+        ItemStack SDoorOutput = new ItemStack(Blocks.planks, 2, 1);
+        ItemStack SDoorInput = new ItemStack(Items.spruce_door);
+        ItemStack BDoorOutput = new ItemStack(Blocks.planks, 2, 2);
+        ItemStack BDoorInput = new ItemStack(Items.birch_door);
+        ItemStack JDoorOutput = new ItemStack(Blocks.planks, 2, 3);
+        ItemStack JDoorInput = new ItemStack(Items.jungle_door);
+        ItemStack ADoorOutput = new ItemStack(Blocks.planks, 2, 4);
+        ItemStack ADoorInput = new ItemStack(Items.acacia_door);
+        ItemStack DODoorOutput = new ItemStack(Blocks.planks, 2, 5);
+        ItemStack DODoorInput = new ItemStack(Items.dark_oak_door);
+        ItemStack IDoorOutput = new ItemStack(Items.iron_ingot, 2);
+        ItemStack IDoorInput = new ItemStack(Items.iron_door);
 
         // Minecarts and Boats
         ItemStack MinecartOutput = new ItemStack(Items.iron_ingot, 5);
@@ -87,8 +98,6 @@ public class Recipes {
         ItemStack WButtonInput = new ItemStack(Blocks.wooden_button, 1);
 
         // Fence / Wall
-        ItemStack WoodenFenceOutput = new ItemStack(Items.stick, 3);
-        ItemStack WoodenFenceInput = new ItemStack(Blocks.fence, 1);
         ItemStack NetherFenceOutput = new ItemStack(Blocks.nether_brick, 1);
         ItemStack NetherFenceInput = new ItemStack(Blocks.nether_brick_fence, 1);
         ItemStack CobbleWallOutput = new ItemStack(Blocks.cobblestone, 1);
@@ -112,6 +121,49 @@ public class Recipes {
         // NetherBrick
         ItemStack NetherBrickOutput = new ItemStack(Items.netherbrick, 4);
         ItemStack NetherBrickInput = new ItemStack(Blocks.nether_brick, 1);
+
+        // Prismarine
+        ItemStack PrismarineOutput = new ItemStack(Items.prismarine_shard, 4);
+        ItemStack PrismarineInput = new ItemStack(Blocks.prismarine);
+        ItemStack PrismarineBrickOutput = new ItemStack(Items.prismarine_shard, 9);
+        ItemStack PrismarineBrickInput = new ItemStack(Blocks.prismarine, 1, 1);
+        
+        // Armour
+        ItemStack LeatherHelmOutput = new ItemStack(Items.leather, 5);
+        ItemStack LeatherChestOutput = new ItemStack(Items.leather, 8);
+        ItemStack LeatherPantsOutput = new ItemStack(Items.leather, 7);
+        ItemStack LeatherBootsOutput = new ItemStack(Items.leather, 4);
+        ItemStack LeatherHelmInput = new ItemStack(Items.leather_helmet, 1);
+        ItemStack LeatherChestInput = new ItemStack(Items.leather_chestplate, 1);
+        ItemStack LeatherPantsInput = new ItemStack(Items.leather_leggings, 1);
+        ItemStack LeatherBootsInput = new ItemStack(Items.leather_boots, 1);
+
+        ItemStack IronHelmOutput = new ItemStack(Items.iron_ingot, 5);
+        ItemStack IronChestOutput = new ItemStack(Items.iron_ingot, 8);
+        ItemStack IronPantsOutput = new ItemStack(Items.iron_ingot, 7);
+        ItemStack IronBootsOutput = new ItemStack(Items.iron_ingot, 4);
+        ItemStack IronHelmInput = new ItemStack(Items.iron_helmet, 1);
+        ItemStack IronChestInput = new ItemStack(Items.iron_chestplate, 1);
+        ItemStack IronPantsInput = new ItemStack(Items.iron_leggings, 1);
+        ItemStack IronBootsInput = new ItemStack(Items.iron_boots, 1);
+
+        ItemStack GoldHelmOutput = new ItemStack(Items.gold_ingot, 5);
+        ItemStack GoldChestOutput = new ItemStack(Items.gold_ingot, 8);
+        ItemStack GoldPantsOutput = new ItemStack(Items.gold_ingot, 7);
+        ItemStack GoldBootsOutput = new ItemStack(Items.gold_ingot, 4);
+        ItemStack GoldHelmInput = new ItemStack(Items.golden_helmet, 1);
+        ItemStack GoldChestInput = new ItemStack(Items.golden_chestplate, 1);
+        ItemStack GoldPantsInput = new ItemStack(Items.golden_leggings, 1);
+        ItemStack GoldBootsInput = new ItemStack(Items.golden_boots, 1);
+
+        ItemStack DiamondHelmOutput = new ItemStack(Items.diamond, 5);
+        ItemStack DiamondChestOutput = new ItemStack(Items.diamond, 8);
+        ItemStack DiamondPantsOutput = new ItemStack(Items.diamond, 7);
+        ItemStack DiamondBootsOutput = new ItemStack(Items.diamond, 4);
+        ItemStack DiamondHelmInput = new ItemStack(Items.diamond_helmet, 1);
+        ItemStack DiamondChestInput = new ItemStack(Items.diamond_chestplate, 1);
+        ItemStack DiamondPantsInput = new ItemStack(Items.diamond_leggings, 1);
+        ItemStack DiamondBootsInput = new ItemStack(Items.diamond_boots, 1);
 
 			/*
 			 *
@@ -151,7 +203,12 @@ public class Recipes {
         GameRegistry.addShapelessRecipe(SandstoneOutput, Sandstone3Input);
 
         // Doors
-        GameRegistry.addShapelessRecipe(WDoorOutput, WDoorInput);
+        GameRegistry.addShapelessRecipe(ODoorOutput, ODoorInput);
+        GameRegistry.addShapelessRecipe(SDoorOutput, SDoorInput);
+        GameRegistry.addShapelessRecipe(BDoorOutput, BDoorInput);
+        GameRegistry.addShapelessRecipe(JDoorOutput, JDoorInput);
+        GameRegistry.addShapelessRecipe(ADoorOutput, ADoorInput);
+        GameRegistry.addShapelessRecipe(DODoorOutput, DODoorInput);
         GameRegistry.addShapelessRecipe(IDoorOutput, IDoorInput);
 
         // Minecart and Boat
@@ -172,7 +229,6 @@ public class Recipes {
         GameRegistry.addShapelessRecipe(WButtonOutput, WButtonInput);
 
         // Fence / Wall
-        GameRegistry.addShapelessRecipe(WoodenFenceOutput, WoodenFenceInput);
         GameRegistry.addShapelessRecipe(NetherFenceOutput, NetherFenceInput);
         GameRegistry.addShapelessRecipe(CobbleWallOutput, CobbleWallInput);
         GameRegistry.addShapelessRecipe(MossyWallOutput, MossyWallInput);
@@ -189,5 +245,30 @@ public class Recipes {
 
         // NetherBrick
         GameRegistry.addShapelessRecipe(NetherBrickOutput, NetherBrickInput);
+
+        // Prismarine
+        GameRegistry.addShapelessRecipe(PrismarineOutput, PrismarineInput);
+        GameRegistry.addShapelessRecipe(PrismarineBrickOutput, PrismarineBrickInput);
+        
+        // Armour
+        GameRegistry.addShapelessRecipe(LeatherHelmOutput, LeatherHelmInput);
+        GameRegistry.addShapelessRecipe(LeatherChestOutput, LeatherChestInput);
+        GameRegistry.addShapelessRecipe(LeatherPantsOutput, LeatherPantsInput);
+        GameRegistry.addShapelessRecipe(LeatherBootsOutput, LeatherBootsInput);
+
+        GameRegistry.addShapelessRecipe(IronHelmOutput, IronHelmInput);
+        GameRegistry.addShapelessRecipe(IronChestOutput, IronChestInput);
+        GameRegistry.addShapelessRecipe(IronPantsOutput, IronPantsInput);
+        GameRegistry.addShapelessRecipe(IronBootsOutput, IronBootsInput);
+
+        GameRegistry.addShapelessRecipe(GoldHelmOutput, GoldHelmInput);
+        GameRegistry.addShapelessRecipe(GoldChestOutput, GoldChestInput);
+        GameRegistry.addShapelessRecipe(GoldPantsOutput, GoldPantsInput);
+        GameRegistry.addShapelessRecipe(GoldBootsOutput, GoldBootsInput);
+
+        GameRegistry.addShapelessRecipe(DiamondHelmOutput, DiamondHelmInput);
+        GameRegistry.addShapelessRecipe(DiamondChestOutput, DiamondChestInput);
+        GameRegistry.addShapelessRecipe(DiamondPantsOutput, DiamondPantsInput);
+        GameRegistry.addShapelessRecipe(DiamondBootsOutput, DiamondBootsInput);
     }
 }
