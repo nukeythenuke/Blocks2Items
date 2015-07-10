@@ -128,6 +128,66 @@ public class Recipes {
         ItemStack PrismarineBrickOutput = new ItemStack(Items.prismarine_shard, 9);
         ItemStack PrismarineBrickInput = new ItemStack(Blocks.prismarine, 1, 1);
         
+        // Hay
+        ItemStack HayOutput = new ItemStack(Items.wheat, 9);
+        ItemStack HayInput = new ItemStack(Blocks.hay_block, 1);
+        
+        // Tools / Weapons
+        ItemStack WoodSwordOutput = new ItemStack(Blocks.planks, 2);
+        ItemStack WoodSwordInput = new ItemStack(Items.wooden_sword);
+        ItemStack WoodPickaxeOutput = new ItemStack(Blocks.planks, 3);
+        ItemStack WoodPickaxeInput = new ItemStack(Items.wooden_pickaxe);
+        ItemStack WoodShovelOutput = new ItemStack(Blocks.planks, 1);
+        ItemStack WoodShovelInput = new ItemStack(Items.wooden_shovel);
+        ItemStack WoodAxeOutput = new ItemStack(Blocks.planks, 3);
+        ItemStack WoodAxeInput = new ItemStack(Items.wooden_axe);
+        ItemStack WoodHoeOutput = new ItemStack(Blocks.planks, 2);
+        ItemStack WoodHoeInput = new ItemStack(Items.wooden_hoe);
+        
+        ItemStack StoneSwordOutput = new ItemStack(Blocks.cobblestone, 2);
+        ItemStack StoneSwordInput = new ItemStack(Items.stone_sword);
+        ItemStack StonePickaxeOutput = new ItemStack(Blocks.cobblestone, 3);
+        ItemStack StonePickaxeInput = new ItemStack(Items.stone_pickaxe);
+        ItemStack StoneShovelOutput = new ItemStack(Blocks.cobblestone, 1);
+        ItemStack StoneShovelInput = new ItemStack(Items.stone_shovel);
+        ItemStack StoneAxeOutput = new ItemStack(Blocks.cobblestone, 3);
+        ItemStack StoneAxeInput = new ItemStack(Items.stone_axe);
+        ItemStack StoneHoeOutput = new ItemStack(Blocks.cobblestone, 2);
+        ItemStack StoneHoeInput = new ItemStack(Items.stone_hoe);
+        
+        ItemStack IronSwordOutput = new ItemStack(Items.iron_ingot, 2);
+        ItemStack IronSwordInput = new ItemStack(Items.iron_sword);
+        ItemStack IronPickaxeOutput = new ItemStack(Items.iron_ingot, 3);
+        ItemStack IronPickaxeInput = new ItemStack(Items.iron_pickaxe);
+        ItemStack IronShovelOutput = new ItemStack(Items.iron_ingot, 1);
+        ItemStack IronShovelInput = new ItemStack(Items.iron_shovel);
+        ItemStack IronAxeOutput = new ItemStack(Items.iron_ingot, 3);
+        ItemStack IronAxeInput = new ItemStack(Items.iron_axe);
+        ItemStack IronHoeOutput = new ItemStack(Items.iron_ingot, 2);
+        ItemStack IronHoeInput = new ItemStack(Items.iron_hoe);
+        
+        ItemStack GoldSwordOutput = new ItemStack(Items.gold_ingot, 2);
+        ItemStack GoldSwordInput = new ItemStack(Items.golden_sword);
+        ItemStack GoldPickaxeOutput = new ItemStack(Items.gold_ingot, 3);
+        ItemStack GoldPickaxeInput = new ItemStack(Items.golden_pickaxe);
+        ItemStack GoldShovelOutput = new ItemStack(Items.gold_ingot, 1);
+        ItemStack GoldShovelInput = new ItemStack(Items.golden_shovel);
+        ItemStack GoldAxeOutput = new ItemStack(Items.gold_ingot, 3);
+        ItemStack GoldAxeInput = new ItemStack(Items.golden_axe);
+        ItemStack GoldHoeOutput = new ItemStack(Items.gold_ingot, 2);
+        ItemStack GoldHoeInput = new ItemStack(Items.golden_hoe);
+        
+        ItemStack DiamondSwordOutput = new ItemStack(Items.diamond, 2);
+        ItemStack DiamondSwordInput = new ItemStack(Items.diamond_sword);
+        ItemStack DiamondPickaxeOutput = new ItemStack(Items.diamond, 3);
+        ItemStack DiamondPickaxeInput = new ItemStack(Items.diamond_pickaxe);
+        ItemStack DiamondShovelOutput = new ItemStack(Items.diamond, 1);
+        ItemStack DiamondShovelInput = new ItemStack(Items.diamond_shovel);
+        ItemStack DiamondAxeOutput = new ItemStack(Items.diamond, 3);
+        ItemStack DiamondAxeInput = new ItemStack(Items.diamond_axe);
+        ItemStack DiamondHoeOutput = new ItemStack(Items.diamond, 2);
+        ItemStack DiamondHoeInput = new ItemStack(Items.diamond_hoe);
+        
         // Armour
         ItemStack LeatherHelmOutput = new ItemStack(Items.leather, 5);
         ItemStack LeatherChestOutput = new ItemStack(Items.leather, 8);
@@ -249,6 +309,40 @@ public class Recipes {
         // Prismarine
         GameRegistry.addShapelessRecipe(PrismarineOutput, PrismarineInput);
         GameRegistry.addShapelessRecipe(PrismarineBrickOutput, PrismarineBrickInput);
+        
+        // Hay
+        GameRegistry.addShapelessRecipe(HayOutput, HayInput);
+        
+        // Tools / Weapons
+        GameRegistry.addShapelessRecipe(WoodSwordOutput, WoodSwordInput);
+        GameRegistry.addShapelessRecipe(WoodPickaxeOutput, WoodPickaxeInput);
+        GameRegistry.addShapelessRecipe(WoodShovelOutput, WoodShovelInput);
+        GameRegistry.addShapelessRecipe(WoodAxeOutput, WoodAxeInput);
+        GameRegistry.addShapelessRecipe(WoodHoeOutput, WoodHoeInput);
+        
+        GameRegistry.addShapelessRecipe(StoneSwordOutput, StoneSwordInput);
+        GameRegistry.addShapelessRecipe(StonePickaxeOutput, StonePickaxeInput);
+        GameRegistry.addShapelessRecipe(StoneShovelOutput, StoneShovelInput);
+        GameRegistry.addShapelessRecipe(StoneAxeOutput, StoneAxeInput);
+        GameRegistry.addShapelessRecipe(StoneHoeOutput, StoneHoeInput);
+
+        GameRegistry.addShapelessRecipe(IronSwordOutput, IronSwordInput);
+        GameRegistry.addShapelessRecipe(IronPickaxeOutput, IronPickaxeInput);
+        GameRegistry.addShapelessRecipe(IronShovelOutput, IronShovelInput);
+        GameRegistry.addShapelessRecipe(IronAxeOutput, IronAxeInput);
+        GameRegistry.addShapelessRecipe(IronHoeOutput, IronHoeInput);
+        
+        GameRegistry.addShapelessRecipe(GoldSwordOutput, GoldSwordInput);
+        GameRegistry.addShapelessRecipe(GoldPickaxeOutput, GoldPickaxeInput);
+        GameRegistry.addShapelessRecipe(GoldShovelOutput, GoldShovelInput);
+        GameRegistry.addShapelessRecipe(GoldAxeOutput, GoldAxeInput);
+        GameRegistry.addShapelessRecipe(GoldHoeOutput, GoldHoeInput);
+        
+        GameRegistry.addShapelessRecipe(DiamondSwordOutput, DiamondSwordInput);
+        GameRegistry.addShapelessRecipe(DiamondPickaxeOutput, DiamondPickaxeInput);
+        GameRegistry.addShapelessRecipe(DiamondShovelOutput, DiamondShovelInput);
+        GameRegistry.addShapelessRecipe(DiamondAxeOutput, DiamondAxeInput);
+        GameRegistry.addShapelessRecipe(DiamondHoeOutput, DiamondHoeInput);
         
         // Armour
         GameRegistry.addShapelessRecipe(LeatherHelmOutput, LeatherHelmInput);

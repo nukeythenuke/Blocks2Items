@@ -1,0 +1,7 @@
+.classpath
+.gradle
+.project
+.settings
+bin
+eclipse
+README.txt
