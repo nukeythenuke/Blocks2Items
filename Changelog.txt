@@ -1,0 +1,9 @@
+V1.1: Added stone bricks and sandstone.
+V1.1.1: Fixed version number.
+V1.1.2: Direct port to 1.6.4.
+V1.2: Port to 1.7.2. Added trapdoor, stone/wood/iron/gold pressure plate, stone/wood buttons. Fixed stone brick recipe.
+V1.3: Added fence, nether brick fence, cobble wall, mossy cobble wall, stone brick varients, grass/mycelium, cauldron and anvils.
+V1.3.1: Added nether brick.
+V1.4: Update to 1.8, removed fence, added new doors and armour.
+V1.5: Added tools and swords.
+V1.6: Added red sandstone, bread, snow, dark prismarine and iron trapdoors.
