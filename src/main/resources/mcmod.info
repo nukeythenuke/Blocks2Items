@@ -3,19 +3,15 @@
     "modid": "Blocks2Items",
     "name": "Blocks 2 Items",
     "description": "Recipes for all the things!",
-    "version": "1.8.9-1.6",
-    "mcversion": "1.8.9",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
     "url": "",
     "updateUrl": "",
-    "authorList": [
-        "nukeythenuke(NuclearPineapple)"
-    ],
-    "credits": "nukeythenuke(NuclearPineapple)",
+    "authorList": ["nukeythenuke"],
+    "credits": "nukeythenuke",
     "LogoFile": "",
-    "screenshots": [
-    ],
+    "screenshots": [],
     "parent": "",
-    "dependencies": [
-    ]
+    "dependencies": []
 }
 ]
