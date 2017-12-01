@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern" : [
+        "#"
+    ],
+    "key": {
+        "#": [
+            {
+                "item": "minecraft:diamond_pickaxe"
+            },
+            {
+                "item": "minecraft:diamond_axe"
+            }
+        ]
+    },
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 3
+    }
+}

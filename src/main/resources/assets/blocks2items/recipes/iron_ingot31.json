@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern" : [
+        "#"
+    ],
+    "key": {
+        "#": [
+            {
+                "item": "minecraft:anvil",
+                "data": 0
+            }
+        ]
+    },
+    "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 31
+    }
+}
