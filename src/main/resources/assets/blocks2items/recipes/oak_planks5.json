@@ -7,6 +7,12 @@
         "#": [
             {
                 "item": "minecraft:trapdoor"
+            },
+            {
+                "item": "minecraft:wooden_pickaxe"
+            },
+            {
+                "item": "minecraft:wooden_axe"
             }
         ]
     },

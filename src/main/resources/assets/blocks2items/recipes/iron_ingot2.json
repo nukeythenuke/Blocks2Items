@@ -6,12 +6,21 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:minecart"
+                "item": "minecraft:heavy_weighted_pressure_plate"
+            },
+            {
+                "item": "minecraft:iron_door"
+            },
+            {
+                "item": "minecraft:iron_sword"
+            },
+            {
+                "item": "minecraft:iron_hoe"
             }
         ]
     },
     "result": {
         "item": "minecraft:iron_ingot",
-        "count": 5
+        "count": 2
     }
 }

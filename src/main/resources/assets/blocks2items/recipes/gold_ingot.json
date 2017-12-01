@@ -6,12 +6,12 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:light_weighted_pressure_plate"
+                "item": "minecraft:golden_shovel"
             }
         ]
     },
     "result": {
         "item": "minecraft:gold_ingot",
-        "count": 2
+        "count": 1
     }
 }

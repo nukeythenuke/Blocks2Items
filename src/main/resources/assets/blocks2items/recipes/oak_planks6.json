@@ -6,13 +6,16 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:wooden_pressure_plate"
+                "item": "minecraft:wooden_button"
+            },
+            {
+                "item": "minecraft:wooden_shovel"
             }
         ]
     },
     "result": {
         "item": "minecraft:planks",
         "data": 0,
-        "count": 2
+        "count": 1
     }
 }

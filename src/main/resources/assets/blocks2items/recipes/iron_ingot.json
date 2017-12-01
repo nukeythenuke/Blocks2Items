@@ -6,12 +6,12 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:iron_door"
+                "item": "minecraft:iron_shovel"
             }
         ]
     },
     "result": {
         "item": "minecraft:iron_ingot",
-        "count": 2
+        "count": 1
     }
 }

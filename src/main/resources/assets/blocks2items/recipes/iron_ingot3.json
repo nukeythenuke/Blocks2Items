@@ -6,12 +6,15 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:iron_trapdoor"
+                "item": "minecraft:iron_pickaxe"
+            },
+            {
+                "item": "minecraft:iron_axe"
             }
         ]
     },
     "result": {
         "item": "minecraft:iron_ingot",
-        "count": 4
+        "count": 3
     }
 }

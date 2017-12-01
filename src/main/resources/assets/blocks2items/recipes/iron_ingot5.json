@@ -6,13 +6,15 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:anvil",
-                "data": 0
+                "item": "minecraft:minecart"
+            },
+            {
+                "item": "minecraft:iron_helmet"
             }
         ]
     },
     "result": {
         "item": "minecraft:iron_ingot",
-        "count": 31
+        "count": 5
     }
 }

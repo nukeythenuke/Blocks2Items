@@ -7,6 +7,15 @@
         "#": [
             {
                 "item": "minecraft:wooden_door"
+            },
+            {
+                "item": "minecraft:wooden_pressure_plate"
+            },
+            {
+                "item": "minecraft:wooden_sword"
+            },
+            {
+                "item": "minecraft:wooden_hoe"
             }
         ]
     },

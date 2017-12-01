@@ -6,12 +6,16 @@
     "key": {
         "#": [
             {
-                "item": "minecraft:furnace"
+                "item": "minecraft:cobblestone_wall",
+                "data": 0
+            },
+            {
+                "item": "minecraft:stone_shovel"
             }
         ]
     },
     "result": {
         "item": "minecraft:cobblestone",
-        "count": 8
+        "count": 1
     }
 }
