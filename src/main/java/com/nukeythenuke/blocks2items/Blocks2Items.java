@@ -10,7 +10,7 @@ public class Blocks2Items{
 	
 	final static String modid = "blocks2items";
     final static String name = "Blocks 2 Items";
-    final static String version = "1.12-1.6";
+    final static String version = "1.12-1.7.2";
 	
     @Mod.Instance(modid)
     public static Blocks2Items instance;
