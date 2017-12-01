@@ -7,3 +7,5 @@ V1.3.1: Added nether brick.
 V1.4: Update to 1.8, removed fence, added new doors and armour.
 V1.5: Added tools and swords.
 V1.6: Added red sandstone, bread, snow, dark prismarine and iron trapdoors.
+V1.7: 1.12 update.
+v1.7.2: Added podzol recipe

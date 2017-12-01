@@ -56,6 +56,7 @@ Cauldron --> 7 Iron ingots
 
 Grass Block --> Dirt
 Mycelium Block --> Dirt
+Podzol Block --> Dirt
 
 NetherBrick (Block) --> 4 NetherBrick (Item)
  
