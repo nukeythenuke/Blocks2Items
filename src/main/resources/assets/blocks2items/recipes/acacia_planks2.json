@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern" : [
+        "#"
+    ],
+    "key": {
+        "#": [
+            {
+                "item": "minecraft:acacia_boat"
+            }
+        ]
+    },
+    "result": {
+        "item": "minecraft:planks",
+        "data": 4,
+        "count": 5
+    }
+}
